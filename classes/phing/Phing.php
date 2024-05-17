@@ -112,6 +112,8 @@ class Phing
 
     /** Indicates we should only parse and display the project help information */
     private $projectHelp = false;
+    
+    private $searchForThis = null;
 
     /** Used by utility function getResourcePath() */
     private static $importPaths;
